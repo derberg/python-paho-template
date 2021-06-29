@@ -1,12 +1,11 @@
 {
   "name": "@asyncapi/python-paho-template",
-  "version": "0.2.7",
+  "version": "0.2.9",
   "description": "Python Paho template for the AsyncAPI generator.",
   "scripts": {
     "release": "semantic-release",
     "test": "echo \"No test specified yet\"",
-    "lint": "eslint --config .eslintrc .",
-    "lint:fix": "eslint --fix --config .eslintrc .",
+    "lint": "echo \"No linter specified yet\"",
     "generate:assets": "echo 'No additional assets need to be generated at the moment'",
     "bump:version": "npm --no-git-tag-version --allow-same-version version $VERSION"
   },
@@ -32,9 +31,9 @@
   },
   "homepage": "https://github.com/asyncapi/python-paho-template#readme",
   "dependencies": {
-    "@asyncapi/generator-filters": "^1.0.0",
-    "lodash": "^4.17.15",
-    "js-yaml": "^3.13.1"
+    "@asyncapi/generator-filters": "^2.0.0",
+    "js-yaml": "^3.13.1",
+    "lodash": "^4.17.15"
   },
   "devDependencies": {
     "@semantic-release/commit-analyzer": "^8.0.1",
